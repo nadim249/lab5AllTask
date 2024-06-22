@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int largestNum(int a[],int n){
+int smallestNum(int a[],int n){
     int sa=a[0];
 
     for(int i=1; i<n ; i++){
@@ -27,9 +27,9 @@ int main(){
         cin>>a[i];
     }
 
-    int smallest =largestNum(a,n);
+    int smallest =smallestNum(a,n);
 
-    cout<<"Largest Number in List : "<<smallest<<endl;
+    cout<<"Smallest Number in List : "<<smallest<<endl;
 
     return 0;
 }
